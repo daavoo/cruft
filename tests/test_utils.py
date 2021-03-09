@@ -33,7 +33,7 @@ def test_get_diff_with_delete(tmp_path: Path):
 
 def test_remove_paths_with_pathlib(tmp_path: Path):
     repo0 = tmp_path / "repo0"
-    (repo0  / "tests").mkdir(parents=True)
+    (repo0 / "tests").mkdir(parents=True)
 
     (repo0 / "file").touch()
     (repo0 / "tests" / "test0.py").touch()
@@ -46,7 +46,7 @@ def test_remove_paths_with_pathlib(tmp_path: Path):
 
 def test_remove_paths_with_string(tmp_path: Path):
     repo0 = tmp_path / "repo0"
-    (repo0  / "tests").mkdir(parents=True)
+    (repo0 / "tests").mkdir(parents=True)
 
     (repo0 / "file").touch()
     (repo0 / "tests" / "test0.py").touch()
@@ -59,7 +59,7 @@ def test_remove_paths_with_string(tmp_path: Path):
 
 def test_remove_paths_with_glob_pattern(tmp_path: Path):
     repo0 = tmp_path / "repo0"
-    (repo0  / "tests").mkdir(parents=True)
+    (repo0 / "tests").mkdir(parents=True)
 
     (repo0 / "file").touch()
     (repo0 / "tests" / "test0.py").touch()
